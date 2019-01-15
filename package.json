@@ -17,7 +17,8 @@
     "url": "https://github.com/natedean/eloquent-javascript-answers/issues"
   },
   "homepage": "https://github.com/natedean/eloquent-javascript-answers#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "~23.6.0"
   }
 }
