@@ -1,6 +1,4 @@
-let size;
-
-function makeChessboard(size = 8) {
+module.exports = (size = 8) => {
   let str = '';
   let isLeadingSpace = true;
   
@@ -19,6 +17,4 @@ function makeChessboard(size = 8) {
   }
   
   return str;
-}
-
-console.log(makeChessboard());
+};

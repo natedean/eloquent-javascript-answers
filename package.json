@@ -4,7 +4,7 @@
   "description": "Answers to the exercise questions from the wonderful book Eloquent Javascript",
   "main": "2.chessboard.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/natedean/eloquent-javascript-answers#readme",
   "dependencies": {},
   "devDependencies": {
-    "jest": "~23.6.0"
+    "jest": "~23.6.0",
+    "jest-environment-jsdom": "~23.4.0"
   }
 }
